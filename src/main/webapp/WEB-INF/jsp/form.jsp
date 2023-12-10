@@ -9,7 +9,10 @@
 <body>
 	
 	<form action="<%=request.getContextPath()%>/sendform" method="post">
-		<label for="nombre">Nombre</label> <input type="text" name="nombre">
+		<label for="nombre">Nombre</label> <input type="text" name="nombre"> 
+		<br>
+		<label for="nombre">Nro. favorito </label> <input type="text" name="nroFavorito">
+		<br>
 		<button type="submit">Enviar</button>
 	</form>
 	

@@ -24,7 +24,7 @@ public class FormController {
 		
 		System.out.println("nombre --> " +  nombre);
 		
-		String saludo = "Bienvenido: " + nombre;
+		String saludo = "Bienvenido " + nombre;
 
 		model.addAttribute("var_saludo", saludo);
 		
