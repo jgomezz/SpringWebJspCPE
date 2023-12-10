@@ -24,6 +24,10 @@ public class FormController {
 		
 		System.out.println("nombre --> " +  nombre);
 		
+		String saludo = "Bienvenido: " + nombre;
+
+		model.addAttribute("var_saludo", saludo);
+		
 		return "resultadoForm"; // WEB-INF/jsp/resultadoForm.jsp
 	}
 	
